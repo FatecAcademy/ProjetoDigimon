@@ -75,3 +75,11 @@ hs_err_pid*
 **/*.iml
 **/.idea
 out/
+
+/.gradle
+/.idea
+/build
+/gradle
+gradlew
+hs_err_pid15652.log
+settings.gradle
