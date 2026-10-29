@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: CIJY
+
+
+digi-api:
+  url: https://digi-api.com
+
+resilience4j:
+  retry:
+    instances:
+      DAPI:
+        max-attempts: 3
+        wait-duration: 100ms
+        ignore-exceptions:
+          - com.projeto.digimon.exception.DigimonNotFoundException
+
+
